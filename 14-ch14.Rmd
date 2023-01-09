@@ -66,7 +66,7 @@ In a time series context, the parent could use data on present and past years te
 
 ## Time Series Data and Serial Correlation {#tsdasc}
 
-GDP is commonly defined as the value of goods and services produced over a given time period. The data set `r ttcode("us_macro_quarterly.xlsx")` is provided by the authors and can be downloaded [here](http://wps.pearsoned.co.uk/wps/media/objects/16103/16489878/data3eu/us_macro_quarterly.xlsx). It provides quarterly data on U.S. real (i.e. inflation adjusted) GDP from 1947 to 2004.
+GDP is commonly defined as the value of goods and services produced over a given time period. The data set `r ttcode("us_macro_quarterly.xlsx")` is provided by the authors and can be downloaded [here](http://wps.pearsoned.co.uk/wps/media/objects/16103/16489878/data3eu/us_macro_quarterly.xlsx). It provides quarterly data on U.S. real (i.e. inflation adjusted) GDP from 1957 to 2004.
 
 As before, a good starting point is to plot the data. The package `r ttcode("quantmod")` provides some convenient functions for plotting and computing with time series data. We also load the package `r ttcode("readxl")` to read the data into `r ttcode("R")`.
 
